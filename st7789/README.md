@@ -1,4 +1,6 @@
-#W55MH32's ST7789 SPI display
+# W55MH32 ST7789 SPI display
+
+In this example, it used a 1.54 inch, 240 * 240 ST7789 SPI display.
 
 This example scripted used russhughes's st7789py_mpy repo and library.
 The mpy file has converted for W55MH32 to use. 
