@@ -7,7 +7,7 @@ TIMING = [400, 850, 800, 450]
 
 # Set up the data pin for the LEDs. Adjust 'GPX' to your board's specific pin (eg. PD5)
 LED_PIN = Pin("PD5", Pin.OUT, value=0) 
-NUM_LEDS = 8 # Number of LEDs in your strip
+NUM_LEDS = 12 # Number of LEDs in your strip
 
 def create_rgb_buffer(red, green, blue):
     """Creates a bytearray for a single RGB color."""
