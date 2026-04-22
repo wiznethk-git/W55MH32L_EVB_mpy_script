@@ -15,6 +15,8 @@ def update_leds(red, green, blue):
     for _ in range(NUM_LEDS):
         buffer.extend(bytearray([green, red, blue]))
     bitstream(LED_PIN, 0, TIMING, buffer)
+    time.sleep(0.01)
+    bitstream(LED_PIN, 0, TIMING, buffer)
 
 print("Starting simple color cycling...")
 while True:
